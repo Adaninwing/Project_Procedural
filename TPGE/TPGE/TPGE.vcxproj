@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F2A2F3E1-E020-4720-8A81-C2E1F984B8D0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TPGE</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\ThirdParty\boost;$(SolutionDir)..\ThirdParty\json_for_c\src;$(SolutionDir)FastNoiseSIMD\Source;$(SolutionDir)pugixml\Source;$(ProjectDir)Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\ThirdParty\boost;$(SolutionDir)..\ThirdParty\json_for_c\src;$(SolutionDir)FastNoiseSIMD\Source;$(SolutionDir)pugixml\Source;$(ProjectDir)Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FastNoiseSIMD\FastNoiseSIMD.vcxproj">
+      <Project>{33cab8a3-38dc-4852-b797-33367e001ac2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\pugixml\pugixml.vcxproj">
+      <Project>{3a3f4c36-bdf4-4933-a014-35fc0e862936}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Engine\TPGEContext.h" />
+    <ClInclude Include="Source\Engine\TPGEObject.h" />
+    <ClInclude Include="Source\Filesystem\FileSystem.h" />
+    <ClInclude Include="Source\Filesystem\IDataLoader.h" />
+    <ClInclude Include="Source\Filesystem\IFileLoader.h" />
+    <ClInclude Include="Source\Filesystem\RawDataLoader.h" />
+    <ClInclude Include="Source\Filesystem\XmlLoader.h" />
+    <ClInclude Include="Source\Generation\Agent.h" />
+    <ClInclude Include="Source\Generation\AttributeResolver.h" />
+    <ClInclude Include="Source\Generation\ModelGenerator.h" />
+    <ClInclude Include="Source\Generation\Pass.h" />
+    <ClInclude Include="Source\Generation\Random.h" />
+    <ClInclude Include="Source\Model\AgentType.h" />
+    <ClInclude Include="Source\Model\Attributes.h" />
+    <ClInclude Include="Source\Model\Edge.h" />
+    <ClInclude Include="Source\Model\Generated\Attributed.h" />
+    <ClInclude Include="Source\Model\Generated\GeneratedData.h" />
+    <ClInclude Include="Source\Model\Generated\GeneratedEdge.h" />
+    <ClInclude Include="Source\Model\Generated\GeneratedGraph.h" />
+    <ClInclude Include="Source\Model\Generated\GeneratedNode.h" />
+    <ClInclude Include="Source\Model\Templates\AgentTemplate.h" />
+    <ClInclude Include="Source\Model\Templates\ComboTemplate.h" />
+    <ClInclude Include="Source\Model\Templates\DataTemplate.h" />
+    <ClInclude Include="Source\Model\Templates\GraphTemplate.h" />
+    <ClInclude Include="Source\Model\Templates\PassTemplate.h" />
+    <ClInclude Include="Source\Model\Templates\TechniqueTemplate.h" />
+    <ClInclude Include="Source\Model\Templates\Template.h" />
+    <ClInclude Include="Source\Model\Templates\TemplateFactory.h" />
+    <ClInclude Include="Source\Model\Templates\TemplateItem.h" />
+    <ClInclude Include="Source\Techniques\Classifier.h" />
+    <ClInclude Include="Source\Techniques\Quantization.h" />
+    <ClInclude Include="Source\Techniques\Noise.h" />
+    <ClInclude Include="Source\Techniques\TechniqueBase.h" />
+    <ClInclude Include="Source\Techniques\TechniqueInvoker.h" />
+    <ClInclude Include="Source\TemplateProject.h" />
+    <ClInclude Include="Source\Util\IndexedMap.h" />
+    <ClInclude Include="Source\Util\NArray.h" />
+    <ClInclude Include="Source\Util\OperatorCheck.h" />
+    <ClInclude Include="Source\Util\Variant.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Engine\TPGEContext.cpp" />
+    <ClCompile Include="Source\Engine\TPGEObject.cpp" />
+    <ClCompile Include="Source\Filesystem\FileSystem.cpp" />
+    <ClCompile Include="Source\Filesystem\IDataLoader.cpp" />
+    <ClCompile Include="Source\Filesystem\IFileLoader.cpp" />
+    <ClCompile Include="Source\Filesystem\RawDataLoader.cpp" />
+    <ClCompile Include="Source\Filesystem\XmlLoader.cpp" />
+    <ClCompile Include="Source\Generation\Agent.cpp" />
+    <ClCompile Include="Source\Generation\AttributeResolver.cpp" />
+    <ClCompile Include="Source\Generation\ModelGenerator.cpp" />
+    <ClCompile Include="Source\Generation\Random.cpp" />
+    <ClCompile Include="Source\Model\AgentType.cpp" />
+    <ClCompile Include="Source\Model\Edge.cpp" />
+    <ClCompile Include="Source\Model\Generated\Attributed.cpp" />
+    <ClCompile Include="Source\Model\Generated\GeneratedData.cpp" />
+    <ClCompile Include="Source\Model\Generated\GeneratedEdge.cpp" />
+    <ClCompile Include="Source\Model\Generated\GeneratedGraph.cpp" />
+    <ClCompile Include="Source\Model\Generated\GeneratedNode.cpp" />
+    <ClCompile Include="Source\Model\Templates\AgentTemplate.cpp" />
+    <ClCompile Include="Source\Model\Templates\ComboTemplate.cpp" />
+    <ClCompile Include="Source\Model\Templates\DataTemplate.cpp" />
+    <ClCompile Include="Source\Model\Templates\GraphTemplate.cpp" />
+    <ClCompile Include="Source\Model\Templates\PassTemplate.cpp" />
+    <ClCompile Include="Source\Model\Templates\TechniqueTemplate.cpp" />
+    <ClCompile Include="Source\Model\Templates\Template.cpp" />
+    <ClCompile Include="Source\Model\Templates\TemplateFactory.cpp" />
+    <ClCompile Include="Source\Model\Templates\TemplateItem.cpp" />
+    <ClCompile Include="Source\Techniques\Classifier.cpp" />
+    <ClCompile Include="Source\Techniques\Quantization.cpp" />
+    <ClCompile Include="Source\Techniques\Noise.cpp" />
+    <ClCompile Include="Source\Techniques\TechniqueBase.cpp" />
+    <ClCompile Include="Source\Techniques\TechniqueInvoker.cpp" />
+    <ClCompile Include="Source\TemplateProject.cpp" />
+    <ClCompile Include="Source\Util\Variant.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

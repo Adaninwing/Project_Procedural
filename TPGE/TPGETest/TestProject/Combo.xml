@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<combo>
+    <data
+        name="NoiseData"
+        file="Data.xml" />
+    <graph 
+        name="Graph"
+        file="Graph.xml"
+        uses="NoiseData" />
+</combo>

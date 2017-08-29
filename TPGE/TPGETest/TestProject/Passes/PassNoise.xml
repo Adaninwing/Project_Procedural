@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<pass>
+    <agent 
+        name="OnlyAgent"
+        type="Masked"
+        mask="data/Mask"
+        technique="..\\Techniques\\TechniqueNoise.xml" >
+
+        <attribute 
+	        name="Mask Value"
+	        index="0"
+	        type="unsigned" >
+	        <constraint 
+	            name="Fixed"
+	            value="85"
+	            type="unsigned" />
+    	</attribute>
+    </agent>
+</pass>

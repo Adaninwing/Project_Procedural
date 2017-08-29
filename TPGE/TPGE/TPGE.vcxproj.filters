@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Techniques">
+      <UniqueIdentifier>{b3cf9dd3-3c89-40c8-a33d-57d63ec97562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Filesystem">
+      <UniqueIdentifier>{e1d9891a-5b77-4d40-866b-8c93c48d7a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extraction">
+      <UniqueIdentifier>{9bc5660f-d76a-4d4a-829c-c230fa7ec740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{87c860fc-7613-4c9c-bbc2-1cb7161ab48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Templates">
+      <UniqueIdentifier>{3996f1c8-628c-401e-b490-94c2f6cf475d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Generated">
+      <UniqueIdentifier>{113b5148-457f-4580-8255-833dffeb82d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Techniques">
+      <UniqueIdentifier>{35e06be6-f9ad-4e23-9ea9-8d15549063df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Filesystem">
+      <UniqueIdentifier>{ccdd88f7-4b66-4c77-9d13-4cbbeba55371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Extraction">
+      <UniqueIdentifier>{0b6d5a97-8b70-4f8a-bc67-a8dfeb74d8a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{3890e72c-cb65-45a0-8bf9-2e711db07a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Templates">
+      <UniqueIdentifier>{753c9ff9-3ef1-4c7e-bbed-d12232d18f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Generated">
+      <UniqueIdentifier>{dc80dff1-9bbd-48f3-892a-5d93206ffd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{afd56b85-3f5d-446f-92f2-12d0ed8c4efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{c023ecb0-c08b-4430-8d4e-ac571af63faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generation">
+      <UniqueIdentifier>{beab1138-2a93-4b01-9d74-13e67430ad8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generation">
+      <UniqueIdentifier>{14a50c5a-643b-4cab-9340-a1229ba8e3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{6c1ac2c5-64fa-4db0-8df8-20ccae3e92bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{cfd1e8e6-b06c-4570-820d-7d9f929f1339}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\TemplateProject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Templates\TemplateFactory.h">
+      <Filter>Header Files\Model\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Filesystem\IFileLoader.h">
+      <Filter>Header Files\Filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Filesystem\XmlLoader.h">
+      <Filter>Header Files\Filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Templates\Template.h">
+      <Filter>Header Files\Model\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Templates\ComboTemplate.h">
+      <Filter>Header Files\Model\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Templates\DataTemplate.h">
+      <Filter>Header Files\Model\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Templates\GraphTemplate.h">
+      <Filter>Header Files\Model\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Templates\PassTemplate.h">
+      <Filter>Header Files\Model\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Templates\AgentTemplate.h">
+      <Filter>Header Files\Model\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Templates\TechniqueTemplate.h">
+      <Filter>Header Files\Model\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\IndexedMap.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Templates\TemplateItem.h">
+      <Filter>Header Files\Model\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Techniques\TechniqueInvoker.h">
+      <Filter>Header Files\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Techniques\TechniqueBase.h">
+      <Filter>Header Files\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\NArray.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Techniques\Noise.h">
+      <Filter>Header Files\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Attributes.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Variant.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Generated\GeneratedNode.h">
+      <Filter>Header Files\Model\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Generated\GeneratedData.h">
+      <Filter>Header Files\Model\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Generated\GeneratedEdge.h">
+      <Filter>Header Files\Model\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Edge.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Generated\Attributed.h">
+      <Filter>Header Files\Model\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\OperatorCheck.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\Generated\GeneratedGraph.h">
+      <Filter>Header Files\Model\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\TPGEObject.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\TPGEContext.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generation\ModelGenerator.h">
+      <Filter>Header Files\Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generation\AttributeResolver.h">
+      <Filter>Header Files\Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generation\Random.h">
+      <Filter>Header Files\Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generation\Agent.h">
+      <Filter>Header Files\Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model\AgentType.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generation\Pass.h">
+      <Filter>Header Files\Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Techniques\Quantization.h">
+      <Filter>Header Files\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Filesystem\IDataLoader.h">
+      <Filter>Header Files\Filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Filesystem\FileSystem.h">
+      <Filter>Header Files\Filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Filesystem\RawDataLoader.h">
+      <Filter>Header Files\Filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Techniques\Classifier.h">
+      <Filter>Header Files\Techniques</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\TemplateProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Templates\TemplateFactory.cpp">
+      <Filter>Source Files\Model\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Filesystem\IFileLoader.cpp">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Filesystem\XmlLoader.cpp">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Templates\Template.cpp">
+      <Filter>Source Files\Model\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Templates\ComboTemplate.cpp">
+      <Filter>Source Files\Model\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Templates\DataTemplate.cpp">
+      <Filter>Source Files\Model\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Templates\GraphTemplate.cpp">
+      <Filter>Source Files\Model\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Templates\PassTemplate.cpp">
+      <Filter>Source Files\Model\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Templates\AgentTemplate.cpp">
+      <Filter>Source Files\Model\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Templates\TechniqueTemplate.cpp">
+      <Filter>Source Files\Model\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Templates\TemplateItem.cpp">
+      <Filter>Source Files\Model\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Techniques\TechniqueInvoker.cpp">
+      <Filter>Source Files\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Techniques\TechniqueBase.cpp">
+      <Filter>Source Files\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Techniques\Noise.cpp">
+      <Filter>Source Files\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Generated\GeneratedData.cpp">
+      <Filter>Source Files\Model\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Generated\GeneratedNode.cpp">
+      <Filter>Source Files\Model\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Generated\GeneratedEdge.cpp">
+      <Filter>Source Files\Model\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Edge.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Generated\Attributed.cpp">
+      <Filter>Source Files\Model\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\Generated\GeneratedGraph.cpp">
+      <Filter>Source Files\Model\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\TPGEObject.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\TPGEContext.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Variant.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generation\ModelGenerator.cpp">
+      <Filter>Source Files\Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generation\AttributeResolver.cpp">
+      <Filter>Source Files\Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generation\Random.cpp">
+      <Filter>Source Files\Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generation\Agent.cpp">
+      <Filter>Source Files\Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model\AgentType.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Techniques\Quantization.cpp">
+      <Filter>Source Files\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Filesystem\IDataLoader.cpp">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Filesystem\FileSystem.cpp">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Filesystem\RawDataLoader.cpp">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Techniques\Classifier.cpp">
+      <Filter>Source Files\Techniques</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

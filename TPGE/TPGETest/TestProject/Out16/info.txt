@@ -1,0 +1,2 @@
+Time taken: 1.014s
+Memory used: 8.44922 MB

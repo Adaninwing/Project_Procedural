@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<technique>
+    <attribute
+        name="Type"
+        value="Noise"
+        type="string" />
+    <attribute
+        name="NoiseType"
+        value="Cellular"
+        type="string" />
+
+    <uses name="data/Data" as="value" />
+</technique>

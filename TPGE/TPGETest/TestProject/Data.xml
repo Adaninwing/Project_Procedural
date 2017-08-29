@@ -1,0 +1,53 @@
+<data 
+    dim="3" >
+    <attribute 
+        name="Width"
+        index="0"
+        type="unsigned" >
+        <constraint 
+            name="Fixed"
+            value="64"
+            type="unsigned" />
+    </attribute>
+    <attribute 
+        name="Height"
+        index="1"
+        type="unsigned" >
+        <constraint 
+            name="Fixed"
+            value="64"
+            type="unsigned" />
+    </attribute>
+    <attribute 
+        name="Depth"
+        index="2"
+        type="unsigned" >
+        <constraint 
+            name="Fixed"
+            value="16"
+            type="unsigned" />
+    </attribute>
+    <attribute 
+        name="Mask"
+        index="3"
+        type="unsigned" >
+    </attribute>
+    <attribute 
+        name="Data"
+        index="4"
+        type="unsigned" >
+    </attribute>
+
+    <pass
+        name="PassNoiseMask"
+        index="0"
+        file="Passes\\PassNoiseMask.xml" />
+    <pass
+        name="PassQuantizationMask"
+        index="1"
+        file="Passes\\PassQuantizationMask.xml" />
+    <pass
+        name="PassNoise"
+        index="2"
+        file="Passes\\PassNoise.xml" />
+</data>

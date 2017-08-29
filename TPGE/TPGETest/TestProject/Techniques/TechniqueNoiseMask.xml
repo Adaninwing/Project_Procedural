@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<technique>
+    <attribute
+        name="Type"
+        value="Noise"
+        type="string" />
+    <attribute
+        name="NoiseType"
+        value="Simplex"
+        type="string" />
+
+    <uses name="data/Mask" as="value" />
+</technique>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<template name="TestTemplate">
+    <combo 
+        name="Combo"
+        file="Combo.xml" />
+</template>

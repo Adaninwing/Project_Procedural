@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<pass>
+    <agent 
+        name="OnlyAgent"
+        type="Graph"
+        technique="..\\Techniques\\TechniqueGraph.xml" >
+    </agent>
+</pass>

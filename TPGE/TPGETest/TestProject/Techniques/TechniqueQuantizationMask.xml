@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<technique>
+    <attribute
+        name="Type"
+        value="Quantization"
+        type="string" />
+    <attribute
+        name="Algorithm"
+        value="Uniform"
+        type="string" />
+    <attribute
+        name="MinimumValue"
+        value="0"
+        type="float" />
+    <attribute
+        name="MaximumValue"
+        value="256"
+        type="float" />
+
+    <attribute
+        name="NumRegions"
+        value="3"
+        type="unsigned" />
+    <attribute
+        name="RegionValue"
+        value="Minimum"
+        type="string" />
+
+    <uses name="data/Mask" as="value" />
+</technique>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<technique>
+    <attribute
+        name="Type"
+        value="Classifier"
+        type="string" />
+
+    <uses name="node/Type" as="class" />
+    <uses name="NoiseData/Mask" as="values" />
+</technique>

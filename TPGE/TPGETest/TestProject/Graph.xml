@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<graph>
+    <node>
+        <attribute 
+            name="Type"
+            index="0"
+            type="unsigned" >
+        </attribute>
+    </node>
+    <edge
+        type="Undirected">
+    </edge>
+
+    <pass
+        name="GraphPass"
+        index="0"
+        file="Passes\\PassGraph.xml" />
+</graph>
